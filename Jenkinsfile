@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Restore GIT') {
       steps {
-        git(url: 'https://github.com/Guiomarin/PersonAPI.git', branch: 'main', credentialsId: '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')
+        git(url: 'https://github.com/Guiomarin/PersonAPI.git', branch: 'main', credentialsId: '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')
       }
     }
 
